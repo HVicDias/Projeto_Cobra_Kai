@@ -39,7 +39,6 @@ namespace Projeto_Cobra_Kai
             this.panel1 = new System.Windows.Forms.Panel();
             this.buttonEntrar = new MaterialSkin.Controls.MaterialFlatButton();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.showPassword = new FontAwesome.Sharp.IconButton();
             this.labelValidaSenha = new MaterialSkin.Controls.MaterialLabel();
             this.labelValidaEmail = new MaterialSkin.Controls.MaterialLabel();
             this.textSenha = new MaterialSkin.Controls.MaterialSingleLineTextField();
@@ -129,7 +128,6 @@ namespace Projeto_Cobra_Kai
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 80F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel2.Controls.Add(this.showPassword, 2, 4);
             this.tableLayoutPanel2.Controls.Add(this.labelValidaSenha, 1, 5);
             this.tableLayoutPanel2.Controls.Add(this.labelValidaEmail, 1, 2);
             this.tableLayoutPanel2.Controls.Add(this.textSenha, 1, 4);
@@ -147,25 +145,6 @@ namespace Projeto_Cobra_Kai
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21.36752F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(244, 234);
             this.tableLayoutPanel2.TabIndex = 0;
-            // 
-            // showPassword
-            // 
-            this.showPassword.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.showPassword.FlatAppearance.BorderSize = 0;
-            this.showPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.showPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(53)))), ((int)(((byte)(87)))));
-            this.showPassword.IconChar = FontAwesome.Sharp.IconChar.EyeSlash;
-            this.showPassword.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(123)))), ((int)(((byte)(157)))));
-            this.showPassword.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.showPassword.IconSize = 24;
-            this.showPassword.Location = new System.Drawing.Point(219, 154);
-            this.showPassword.Margin = new System.Windows.Forms.Padding(0);
-            this.showPassword.Name = "showPassword";
-            this.showPassword.Size = new System.Drawing.Size(25, 29);
-            this.showPassword.TabIndex = 4;
-            this.showPassword.UseVisualStyleBackColor = true;
-            this.showPassword.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mostraSenha);
-            this.showPassword.MouseUp += new System.Windows.Forms.MouseEventHandler(this.escondeSenha);
             // 
             // labelValidaSenha
             // 

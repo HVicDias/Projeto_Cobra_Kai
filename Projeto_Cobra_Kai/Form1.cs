@@ -1,16 +1,9 @@
 ﻿using MaterialSkin;
-using MaterialSkin.Controls;
 using MySql.Data.MySqlClient;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Drawing.Text;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Projeto_Cobra_Kai
@@ -112,11 +105,7 @@ namespace Projeto_Cobra_Kai
 
 
         private void buttonEntrar_Click(object sender, EventArgs e) {
-            this.Hide();
-            Form2 form3 = new Form2(0);
-            form3.ShowDialog();
-            this.Close();
-
+            
             if (textEmail.Text.Contains("@") ) 
             {
                 string[] vetorEmail = textEmail.Text.Split('@');
